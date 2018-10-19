@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss styles.scss styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slindquist3/boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slindquist3/boilerplate/issues"
+  },
+  "homepage": "https://github.com/slindquist3/boilerplate#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.4",
+    "nodemon": "^1.18.4"
+  }
+}
